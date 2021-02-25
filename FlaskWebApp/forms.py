@@ -11,7 +11,7 @@ class SampleForm(FlaskForm):
                        choices=[('it', 'Information Technology'),
                                 ('CS','Computer Science')])
     campus = SelectField("Campus",
-                         choices=[('mmc', 'MMMC'),
+                         choices=[('mmc', 'MMC'),
                                   ('bbc', "BBC"),
                                   ('ec', 'Engineering Center')])
 

@@ -1,2 +1,0 @@
-from FlaskWebApp import app
-

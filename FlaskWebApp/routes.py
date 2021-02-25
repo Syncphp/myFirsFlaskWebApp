@@ -5,4 +5,8 @@ from flask import request, render_template
 def helloWeb():
     first_name = 'Rodny'
     last_name = 'German'
-    return 'My name is {0} {1}'.format(first_name,last_name)
+    return "Welcome to my first app!"
+
+@app.route("/page")
+def page1():
+    return "page1"
